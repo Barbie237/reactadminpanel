@@ -7,20 +7,20 @@
   
   .home,
   .services,
-  .products,
-  .contact,
-  .sign-up {
+  .career,
+  .about,
+  .contact-us {
     display: flex;
     height: 90vh;
     align-items: center;
     justify-content: center;
-    font-size: 3rem;
+    font-size: 2rem;
   }
   
   .services {
     padding: 100px;
    
-    background-image: url('../public/images/teh.jpg');
+    /* background-image: url('../public/images/teh.jpg'); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -28,8 +28,8 @@
     font-size: 40px;
   }
   
-  .products {
-    background-image: url('../public/images/img-1.jpg');
+  .career {
+   
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;
@@ -37,11 +37,12 @@
     font-size: 100px;
   }
   
-  .contact{
-    color: brown;
+  .about{
+    color: #242424;
+    size: 10px;
   }
-  .sign-up {
-    background-image: url('../public/images/img-8.jpg');
+  .contact-us {
+    /* background-image: url('../public/images/img-8.jpg'); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

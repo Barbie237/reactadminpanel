@@ -65,19 +65,19 @@ function Navbar() {
                         to ="/products" 
                         className='nav-links'
                         onClick={closeMobileMenu}>
-                            Products
+                            Career
                         </Link>
                     </li>
                    
-                    <li className='nav-item'>
+                    {/* <li className='nav-item'>
                         <Link to ="/sign-up" 
                         className='nav-links-mobile'
                         onClick={closeMobileMenu}>
-                            Sign Up
+                            Contact US
                         </Link>
-                    </li>
+                    </li> */}
                 </ul>
-              {button && <Button buttonStyle='btn--outline'>SIGN UP</
+              {button && <Button buttonStyle='btn--outline'>CONTACT US</
               Button>}
             </div>
         </nav> 

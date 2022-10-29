@@ -2,23 +2,24 @@ import React from 'react'
 import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
-
   
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src='.../public/videos/video-2.mp4' 
-      autoPlay loop muted />
-      <h1> SOFTWARES DEVELOPMENT ? </h1>
-       <p>What are you waiting for? </p>
+      <div className='hero-cont'>
       <div className='hero-btns'>
+        <h1>   SOFTWARE CONSULTING AND DEVELOPMENT
+            FOR YOUR DIGITAL SUCCESS <br/><br/> <p>What are you waiting for?</p></h1>
+        
         <Button 
         className='btns' 
         buttonStyle='btn--outline'
         buttonSize='btn--large'
         >
-            GET STARTED
+            CONTACT US
         </Button>
+      </div>
+      
         {/* <Button 
         className='btns' 
         buttonStyle='btn--primary'
