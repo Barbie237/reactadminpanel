@@ -29,7 +29,7 @@ function Navbar() {
         <nav className="navbar">
             <div className="navbar-container">
                 <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                     IZSOFTWARES   <img src="IZ-logo.png" alt=""/> 
+                      <img src="IZ-logo.png" alt=""/>  IZSOFTWARES   
                      
                 </Link>
                 <div className="menu-icon" onClick={handleClick}>

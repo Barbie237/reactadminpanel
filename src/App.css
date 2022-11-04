@@ -9,7 +9,7 @@
   .services,
   .career,
   .about,
-  .contact-us {
+  {
     display: flex;
     height: 90vh;
     align-items: center;
@@ -47,6 +47,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
-    font-size: 100px;
+   
   }
   

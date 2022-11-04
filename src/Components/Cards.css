@@ -1,5 +1,5 @@
 .cards {
-    padding: 4rem;
+    padding: 10rem;
     background: #fff;
   }
   
@@ -12,18 +12,20 @@
     flex-flow: column;
     align-items: center;
     max-width: 1120px;
-    width: 100%;
+    width: 10px;
     margin: 0 auto;
+    
   }
   
   .cards__wrapper {
     position: relative;
-    margin: 100px 0 85px;
-    flex-direction: column;
+    margin: 10px 0 px;
+    /* flex-direction: column; */
   }
   
   .cards__items {
     margin-bottom: 24px;
+    /* flex-direction: column; */
   }
   
   .cards__item {
@@ -39,7 +41,7 @@
     width: 100%;
     height: 100%;
     
-    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    box-shadow: 0 6px 0px rgba(56, 125, 255, 0.17);
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     border-radius: 50px;
